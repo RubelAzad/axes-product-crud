@@ -13,7 +13,7 @@
     </div>
 
     @if ($message = Session::get('success'))
-        <div class="alert alert-success">
+        <div class="alert alert-success" id="successAlert">
             <p>{{ $message }}</p>
         </div>
     @endif

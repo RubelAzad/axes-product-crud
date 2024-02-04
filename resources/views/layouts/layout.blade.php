@@ -10,6 +10,10 @@
 <div class="container">
     @yield('content')
 </div>
-
+<script>
+    setTimeout(function(){
+        document.getElementById('successAlert').style.display = 'none';
+    }, 1000); // Hide after 10 seconds
+</script>
 </body>
 </html>
